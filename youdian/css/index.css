@@ -1,0 +1,139 @@
+@charset "utf-8";
+
+/**************************焦点图**************************/
+.banner{width: 1066px;height:418px;position: relative}
+.banner .banner_pic{width: 1066px;height: 419px;overflow: hidden}
+/*搜索框*/
+.banner #search_box{width: 228px;height: 32px;background: #232323;position: absolute;top:8px;right: 32px;-webkit-border-radius: 2px;border-radius: 2px;}
+.banner #search_box li{float: left;color: white;height: 32px;}
+.banner #search_box input{width: 193px;height: 25px;-webkit-border-radius: 2px;border-radius: 2px;border: none;background: #333333;margin: 3px 0px 0px 3px }
+
+.banner #left_arrow{width: 58px;height: 128px;background: #333333;position: absolute;top:144px;opacity: 0.5;color: white;font-size: 75px;text-align: center;line-height: 128px;font-family: "宋体";cursor: pointer}
+.banner #right_arrow{width: 58px;height: 128px;background: #333333;position: absolute;top:144px;right: 0px;opacity: 0.5;color: white;font-size: 75px;text-align: center;line-height: 128px;font-family: "宋体";cursor: pointer}
+/*焦点图导航*/
+.banner .banner_nav{width: 961px;height: 53px;background: #333333;position: absolute;bottom: 0px;left: 64px;opacity: 0.5;padding-top: 7px;}
+.banner .banner_nav li{width: 98px;height: 48px;margin-left: 20px;float: left;}
+.banner .banner_nav li:hover{outline: 1px solid #ff9900;}
+.banner .banner_nav li img:hover{opacity: 0.7}
+/**************************导航**************************/
+.nav{width: 1071px;height:38px;}
+.nav ul{margin-left: 5px}
+.nav li{height: 16px;float: left;margin-top: 11px;border-right: 1px solid #ececec}
+.nav li a{margin: 0px 15px;font-size: 14px}
+/**************************主体部分**************************/
+.main_container{height:1785px;background: #ffffff;border-top: 1px solid #ececec;border-bottom: 1px solid #ececec;}
+.main{width: 1070px;height:1648px;margin: 0px auto;margin-top: 54px;background: #f4f4f4}
+/*优视频*/
+.main .ur_video{height:330px;}
+.main .ur_video .ur_v_title{width: 525px;background: #ff9000;text-align: center;margin-left: 0px}
+.main .ur_video .ur_v_title img{margin-top: 35px}
+.main .ur_video li{width: 170px;height: 163px;float: left;margin-left: 5px;}
+.main .ur_video .ur_v_long{width: 350px;margin-top: 5px;overflow: hidden}
+.main .ur_video .school_tv{position: absolute;background: #ff9000;height: 31px;bottom: 0px;width: 100%;padding-top: 10px;text-indent: 51px}
+.main .ur_video .school_tv a{color: white}
+.main .orange_bar{width: 1070px;height: 13px;background:#ffffff;margin: 12px 0px 30px 0;clear: left }
+.main .orange_bar span{width: 408px;height: 13px;background: #ff9000;display: block}
+/*优沙龙*/
+.main .ur_salon{width: 1070px;height: 166px;margin-bottom: 25px}
+.main .ur_salon .ur_salon_title{text-align: center}
+.main .ur_salon .ur_salon_title img {margin-top: 35px}
+.ur_salon li{float: left}
+.ur_salon .ur_salon_title{width: 346px;height: 166px;background: #66ccff}
+.ur_salon .ur_salon_pic{width: 419px;height: 166px}
+.ur_salon .ur_salon_detail{width: 303px;height: 166px;background: #66ccff;overflow: hidden}
+.ur_salon .ur_salon_detail h4{font-size: 19px;color:white;margin: 25px 0 15px 0;text-align: center}
+.ur_salon .ur_salon_detail p{width: 200px;font-size: 12px;color:white;margin: 0 auto}
+/*有话说*/
+.ur_container_1{width: 760px;height: 1070px;float: left}
+.ur_talking{width: 405px;height: 771px;float: left;overflow: hidden}
+
+.ur_talking .ur_talking_title{height: 165px;background: #9999ff;text-align: center;}
+.ur_talking .ur_talking_title img{margin-top: 35px}
+.ur_talking li{width: 405px;height: 150px;margin-top: 1px}
+.ur_talking .hot_talking_bg{position: relative;}
+.ur_talking .hot_talking img{position: absolute;z-index: 0;}
+.ur_talking .hot_talking{width: 405px;height: 150px; color: white;opacity: 0.8;background: #9999ff;position: absolute;z-index: 1;top:0 }
+.ur_talking .hot_talking a {color: white}
+.ur_talking .hot_talking h3{;margin-top: 20px;font-size: 17px;width: 330px;margin-left: 50px}
+.ur_talking .hot_talking h3 span{float: right;font-size: 12px;font-weight: normal}
+.ur_talking .hot_talking p{width: 330px;margin-left: 50px;font-size: 15px;line-height: 20px}
+.ur_talking .hot_talking h4{font-size: 12px;margin-left: 50px;font-weight: normal}
+/*ur活动*/
+.ur_activity{width: 327px;height: 768px;float: left;margin-left: 25px}
+.ur_activity .ur_activity_title{width: 328px;height:208px;background: #fb6e52;text-align: center}
+.ur_activity .ur_activity_title img{margin-top: 55px}
+
+.ur_activity .hot_activity_bg{position: relative;}
+.ur_activity .hot_activity img{position: absolute;z-index: 0;}
+.ur_activity .hot_activity{width: 328px;height:208px; color: white;opacity: 0.8;background: #fb6e52;position: absolute;z-index: 1;top:0 }
+.ur_activity .hot_activity h3{margin-top: 30px;margin-left: 58px;font-size: 18px}
+.ur_activity .hot_activity a {color: white}
+.ur_activity .hot_activity p{margin-left: 58px;width: 216px;line-height: 20px;font-size: 14px;margin-top: 14px;font-weight: bold}
+
+/*ur文化*/
+.ur_gd_culture{width: 760px;height: 285px;float: left;margin-top: 15px}
+.ur_gd_culture_title{width: 300px;height: 285px;background:#6abc40;text-align: center;float: left}
+.ur_gd_culture_title img{margin-top: 100px}
+.ur_gd_culture li{width: 149px;height: 142px;float: left}
+.ur_gd_culture .gd_culture_long{width: 302px;height: 140px}
+
+.ur_container_2{width: 285px;height: 1070px;float: left;margin-left: 25px}
+
+/*ur计划*/
+.ur_plan{width: 286px;height: 412px;}
+.ur_plan h3{width: 284px;height: 122px;background: #9ed465;text-align: center}
+.ur_plan h3 img{margin-top: 20px}
+.ur_plan li{width: 180px;height: 43px;padding-left: 104px;padding-top: 15px;}
+.ur_plan li a{font-size: 13px;color: black}
+.ur_plan li:first-child{margin-top: 1px}
+
+
+
+
+
+
+
+
+
+/*ur影视人*/
+.ur_human{width: 286px;height: 418px;margin-top: 25px}
+.ur_human h3{height: 124px;background: #54d1f5;text-align: center}
+.ur_human h3 img{margin-top: 20px}
+.ur_human li{height: 100px;border-bottom: 1px solid #EDEDED;width: 258px;margin-left: 25px}
+.ur_human .people_pic{float: left;margin-top: 20px;width: 66px}
+.ur_human .people_info{float: left;margin-top: 20px;margin-left: 18px;width: 170px;}
+.ur_human .people_info li{height:20px;font-size: 13px;border: none}
+
+/*ur广告*/
+.ur_ad{width: 285px;height: 190px;margin-top: 25px;background: url("../images/ad_03.jpg")no-repeat;text-align: center;}
+.ur_ad img{margin-top: 50px;}
+
+/**************************精华区**************************/
+.essence_area{width: 1071px;height:420px;margin-top: 25px}
+.essence_title{width: 1070px;height: 20px}
+.essence_title li{float: left;line-height: 20px}
+.essence_title .grey_line{width: 475px;height: 6px;background: #eeeeee;margin-top: 7px}
+.essence_title #e_title{width: 120px;height: 20px;line-height: 20px;text-align: center;font-size: 15px;font-family:"微软雅黑"}
+.essence_content_1{width: 737px;height: 335px;float: left;padding-left: 6px}
+/*左边部分*/
+.essence_content_1 li{width: 368px;height: 77px;float: left;margin-top: 33px}
+.essence_content_1 .essence_1_pic{width: 120px;height: 76px;float: left;overflow: hidden}
+.essence_content_1 .essence_1_detail{width: 150px;height: 65px;float: left;margin-left: 16px}
+.essence_content_1 .essence_1_detail li{width: 150px;height: 20px;overflow: hidden;margin-top: auto}
+.essence_content_1 .essence_1_detail h4{width: 150px;height: 20px;overflow: hidden;font-size: 16px}
+.essence_content_1 .essence_1_detail .star_level{margin-top: 10px}
+.essence_content_1 .essence_1_detail .star_level li{float: left;width: 18px;height: 20px;line-height: 20px;cursor: pointer}
+.essence_content_1 .essence_1_detail .sort{margin-top: 10px}
+.essence_content_1 .essence_1_detail .sort li {font-size: 12px;float: left;width: 130px;}
+.essence_content_1 .essence_1_detail .sort .color_square{width: 9px;height: 9px;background: #00cccc;margin-top: 3px}
+/*右边部分*/
+.essence_content_2{width: 327px;height: 335px;float: left}
+.essence_content_2 li{width: 326px;height: 103px;;margin-top: 15px}
+.essence_content_2 li .essence_2_pic{width: 72px;height: 102px;float: left}
+.essence_content_2 li .essence_2_detail{width: 240px;height: 100px;float: left;margin-left: 13px}
+.essence_content_2 li .essence_2_detail li{width: 240px;height: auto;font-size: 12px;margin-top:auto}
+.essence_content_2 li .essence_2_detail li h4{width:150px;height: 20px;font-size: 14px;display: inline-block}
+.essence_content_2 li .essence_2_detail li span{float: right;font-size: 12px;margin-top: 2px;}
+.essence_content_2 li .essence_2_detail li span a{color: red}
+.essence_content_2 li .essence_2_detail li p{width: 230px;height: 38px;font-size: 12px;line-height: 18px    }
+.essence_content_2 li .essence_2_detail li p a{color: red}
