@@ -1,0 +1,19 @@
+@charset "utf-8";
+#m_r_header span{font-size: 14px;color: #989898}
+.main_r{height: 790px;}
+
+
+#company_message{padding-left: 30px;padding-top: 30px;}
+#company_message{width: 685px;height: 230px;border: 1px solid #ECECEC;-webkit-border-radius: 5px;border-radius: 5px;background: url("../images/tea.png") no-repeat right}
+#company_message li{background: url("../images/bluearrow.gif") no-repeat 0px 6px;padding-left: 15px;height: 25px;}
+
+#CEO_message{width:730px;height: 460px;}
+#C_pic{float: left;margin-top: 30px}
+.C_content{float: left;width: 460px;height: 420px;margin-top: 30px}
+.C_content h3{font-size: 20px;display: inline}
+.C_content h4{font-size: 14px;margin-left: 35px}
+.C_content p{font-size: 12px;margin-left: 35px}
+.C_content h2{display: inline-block}
+.sign {margin-left: 260px;margin-top: 120px;width: 300px;height: 50px}
+.sign p{display: inline-block}
+.sign h2{font-size: 20px}

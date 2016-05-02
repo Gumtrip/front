@@ -1,0 +1,29 @@
+@charset "utf-8";
+.register{float: left;width: 904px}
+
+
+.register_title {height: 30px;border-bottom: 1px solid #ececec;padding-left: 15px}
+.register_title li {float: left}
+.register_title h2{font-size: 16px}
+.register_title h3{font-size: 12px;padding-top: 5px;color: #989898}
+
+
+.register .register_form_title {height: 65px}
+.register .register_form_title ul{float: right}
+.register .register_form_title h2{font-size: 20px;font-style: italic}
+.register .register_form_title h3{font-size: 12px;text-align: right}
+
+
+.register_form_container form{width: 520px;height: 444px;float: left}
+
+.register_form_container table .form_title{text-align: right}
+.register_form_container table tr{height: 60px}
+.register_form_container table input{width: 250px;height: 28px;border: 1px solid #ececec}
+.register_form_container form p {margin-left: 80px}
+.register_form_container form p a{color: #003eff;text-decoration: underline}
+.register_form_container .register_form_pic{width: 361px;height: 371px;float: left;overflow: hidden}
+.register_form_container .register_form_pic img {width: 361px;height: 371px;}
+
+/*按钮*/
+.register_btn {width: 444px;height: 45px;margin-top: 30px;margin-left: 80px}
+.register_btn li{width: 188px;height: 35px;float: left;border: 1px solid #989898;text-align: center;}

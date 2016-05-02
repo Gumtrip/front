@@ -1,0 +1,36 @@
+@charset "utf-8";
+.main_title{background: url("../images/arrow_07.jpg") no-repeat right}
+
+.programa{margin-top: 26px;height: 520px;background: url("../images/up_arrow_17.jpg") no-repeat bottom right}
+.programa_pic{width: 705px;height: 328px;margin-top: 2px;padding-bottom: 12px;border-bottom: 1px solid black}
+.programa_pic img {border: 1px solid black}
+
+
+.programa_time{width: 177px;float:left }
+.programa_time p{font-size: 12px}
+
+.programa_article{width: 530px;float: left}
+
+.article_title{height: 75px;border-bottom: 1px dashed #ececec;margin-bottom: 28px}
+
+.article_title h3{font-size: 30px;line-height: 32px;font-weight: normal}
+
+
+.programa_article p{font-size: 12px;line-height: 22px}
+
+.article_skip{border-top: 1px dashed black;border-bottom: 1px dashed black;margin-top: 45px;height: 125px}
+
+.article_skip li{height: 26px;line-height: 26px;margin-top: 20px}
+.article_skip li a{color: #cc2a1e;font-size: 12px;margin-left: 22px;float: left}
+.article_skip img {border: 1px solid black;margin-top: 1px;cursor: pointer;float: left}
+
+
+.programa button{width: 80px;height: 16px;background: #850a0e;color: white;border: none;border-radius: 3px;font-size: 12px;cursor: pointer;float: right;margin-top: 25px}
+
+
+
+
+
+
+
+

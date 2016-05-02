@@ -1,0 +1,20 @@
+@charset "utf-8";
+.main{height: 750px}
+.main_cart {width: 904px;float: left}
+.main_cart h2{height: 70px;padding-top: 25px;border: 1px solid black;font-size: 38px;text-align: center;}
+
+.main_cart table{border-collapse: collapse;width: 100%;margin-top: 70px}
+.main_cart tr.table_title{border-bottom: 1px solid #ececec}
+.main_cart table th{height: 25px;}
+.main_cart table td{text-align: center}
+.main_cart .product{width: 175px;text-align: left}
+.main_cart .product_pic{width: 200px}
+.main_cart .price {width: 75px}
+.main_cart .quantity {width: 125px}
+.main_cart .sum {width: 150px}
+
+.main_cart .product_info_container{border-bottom: 1px solid #ececec}
+.main_cart td.product_info{padding: 22px 0px}
+
+.main_cart .cart_function{margin-top: 40px}
+.main_cart .cart_function li {width: 188px;height:35px;border: 1px solid black;float: left;text-align: center;font-size: 14px;cursor: pointer;margin-left: 38px }

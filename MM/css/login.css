@@ -1,0 +1,22 @@
+@charset "utf-8";
+.login {float: left}
+
+.login .login_title {height: 30px;border-bottom: 1px solid #ececec;padding-left: 15px}
+.login .login_title li {float: left}
+.login .login_title h2{font-size: 16px}
+.login .login_title h3{font-size: 12px;padding-top: 5px;color: #989898}
+
+
+.login .user{width: 452px;height: 352px;float: left;margin-top: 70px}
+.login .user .red_text{color: #ff6699;margin-bottom: 35px}
+.login .user li{margin-top: 40px;font-size: 14px}
+
+.login .user input {width: 250px;height: 25px;border: 1px solid #ececec}
+.login .user button{width: 150px;height: 40px;background: transparent;border: 1px solid black;margin-left: 55px}
+
+
+.login .not_a_member{width: 340px;height: 352px;float: left;margin-top: 70px}
+.login .not_a_member .red_text{color: #ff6699;margin-bottom: 35px}
+.login .not_a_member li{margin-top: 40px;font-size: 14px}
+
+.login .not_a_member button{width: 150px;height: 40px;background: transparent;border: 1px solid black;margin-left: 55px}

@@ -1,0 +1,21 @@
+@charset "utf-8";
+.service{float: left;width: 904px;}
+.service h2{height: 70px;padding-top: 25px;border: 1px solid black;font-size: 38px;text-align: center;margin-bottom: 30px}
+
+.service .service_nav{height: 46px;border-top: 1px solid #ececec}
+.service .service_nav li{width: 128px;height: 29px;float: left;text-align: center;padding-top: 15px}
+.service .service_nav li a{font-size: 14px;}
+.service .service_nav li:hover{}
+
+.service h3{height: 30px;padding-top: 10px;font-size: 15px;border-bottom: 1px solid black;margin-top: 85px}
+
+.service .about_member{}
+
+.service .about_service{width: 160px;height: 335px;float: left;margin-top: 10px}
+.service .about_service li{height: 35px;padding-top: 10px;padding-left: 15px;}
+.service .about_service li a{color: #989898}
+
+
+.service .q_a{width: 580px;height: 334px;float: left;margin-top: 38px;margin-left: 100px}
+.service .q_a li{height: 23px;padding-top: 12px;border-bottom: 1px dashed #ececec;position: relative;text-indent: 1em}
+.service .q_a li img{position: absolute;left: -31px;top:5px}

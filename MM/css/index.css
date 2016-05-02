@@ -1,0 +1,53 @@
+@charset "utf-8";
+/*大题目*/
+.big_title{height: 276px}
+.big_title{text-align: center}
+.big_title h2{font-size: 68px;display: inline-block;margin-top: 75px}
+.big_title h3{font-size: 42px;}
+
+/*中间主体*/
+.main{height: 670px;}
+.main .item{width: 248px;height: 670px;float: left;padding-left: 13px}
+.main .item h2{font-size: 22px}
+
+.main .item li{font-size: 16px;margin-top: 15px}
+
+.main .shopping_pic{width: 904px;height: 621px;float: left}
+
+.best_100{height: 475px;position: relative}
+.best_100 .left_arrow{position: absolute;left: 0px;top: 55px;cursor: pointer}
+.best_100 .right_arrow{position: absolute;right: 0px;top: 55px;cursor: pointer  }
+.best_100 li{width: 214px;float: left;margin-right: 15px;}
+.best_100 h2{width: 250px;font-size: 26px;;margin: 0px auto}
+.best_100 p{font-size: 14px;height: 25px;line-height: 25px;overflow: hidden}
+.best_100 ul li ul li{float: none}
+.best_100 .best_100_pic {width: 214px;height: 240px;border-bottom: 1px dashed #ececec}
+.best_100 .best_100_title{margin-top: 15px}
+.best_100 .best_100_price{margin-top: 17px}
+.best_100 .best_100_price li{width:auto;float: left;font-size: 14px;}
+.best_100 .best_100_price li img{margin-top: 2px;margin-left: 8px}
+
+
+/*底部导航*/
+.mall_intro_container{height: 225px;}
+.mall_intro_container h2{font-size: 16px;width: 250px;margin: 0px auto;}
+.mall_intro {height: 174px;border: 1px solid #ececec;margin-top: 32px}
+.mall_intro li{float: left;}
+.mall_intro .intro_title{width: 350px;height: 155px;border-right: 1px solid #ececec;margin-top: 10px}
+.mall_intro .intro_title h2{font-size: 99px;text-align: center}
+.mall_intro .intro_title h3{font-size: 25px;text-align: center}
+
+/*介绍导航*/
+.mall_intro .intro_nav {width: 445px;height: 158px;border-right: 1px solid #ececec;margin-top: 10px}
+.mall_intro .intro_nav li{width: 148px;height: 51px}
+.mall_intro .intro_nav h4{font-size: 14px;text-align: center}
+.mall_intro .intro_nav p{font-size: 12px;text-align: center}
+
+.intro_info {width: 343px;padding-left: 12px}
+.intro_info li{float: none;font-size: 13px;font-weight: bold}
+.intro_info .hot_line{height: 50px;padding-top: 25px}
+.intro_info .hot_line span{font-size: 28px;color: #ff3399}
+.intro_info .woriking_time{width: 355px}
+.intro_info .address{width: 355px}
+
+

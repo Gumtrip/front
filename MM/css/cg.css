@@ -1,0 +1,19 @@
+@charset "utf-8";
+.main{height: 738px}
+
+.tee{width: 904px;height: 738px;float: left}
+.tee  li{width: 200px;margin-top: 50px;float: left;margin-right: 34px}
+
+.tee li li{width: auto;height: auto;;float: none}
+.tee .tee_pic{width: 200px;height: 275px;overflow: hidden}
+.tee .tee_title{font-size: 12px;margin-top: 12px;position: relative}
+.tee .tee_title span{display: inline-block;position: absolute;bottom:-2px;right: 11px}
+.tee .tee_price{font-size: 12px;margin-top: 5px}
+
+
+.floor li{width: 200px;margin-top: 32px;float: left;margin-right: 40px}
+
+.floor_title {height: 50px;border-bottom: 1px solid #ececec}
+.floor_title li{width: 63px;height: 40px;margin: 0px;font-size: 12px}
+.floor_title em{font-size: 38px}
+.floor_title span{font-size: 18px}

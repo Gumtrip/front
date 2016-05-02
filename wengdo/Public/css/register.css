@@ -1,0 +1,17 @@
+@charset "utf-8";
+/*右边部分*/
+.m_r_pic{height: 200px;width: 680px;}
+.m_r_pic img{float: right}
+
+.main_r h1{height: 40px;width: 650px;margin-left: 10px;border-bottom: 2px #6986bc solid }
+
+/*表格*/
+.main_r table{height: 260px;width: 450px;margin-left: 150px;margin-top: 30px;}
+.first_col{width: 70px;text-align: right}
+.main_r table input{margin-left: 15px;border: 1px solid#ececec}
+.main_r textarea{width: 340px;height: 80px;border: 1px solid#ececec}
+/*按钮*/
+.btn{margin-left: 300px}
+.btn input {width: 55px;height: 45px;background-color: #1647a1;-webkit-border-radius: 10px;border-radius: 10px;color: white;border: none}
+
+.footer_right select{margin-left: 30px}

@@ -1,0 +1,23 @@
+@charset "utf-8";
+.main_r{height: 800px}
+.main_r p{font-size: 12px}
+.target {width: 690px;height: 320px;margin-top: 30px;background: url("../images/women.gif") no-repeat right bottom}
+.target_head{background: url("../images/ico_item.jpg") no-repeat left center;text-indent: 1em;font-size: 14px;color: #6e88bf;margin-bottom: 5px}
+.target ul{width: 310px;height: 320px}
+.target li{width: 130px;height: 110px;border: 8px solid #dadfe7;float: left;margin-top: 20px}
+.target li h4{font-size: 14px;margin-top: 10px;margin-left: 10px}
+.target li p{font-size: 12px;margin-top: 10px;margin-left: 10px;width: 72px}
+
+/*进程*/
+.progress{margin-top: 30px}
+.progress ul {width: 680px;height: 140px;overflow: hidden}
+.progress li{width: 116px;height: 125px;background:url("../images/circle.jpg")no-repeat -2px ;float: left;}
+.progress li h2{font-size: 24px;color: #ccd3e6;margin: 25px 0px 0px 15px}
+.progress li p{font-size: 13px;margin-top: 20px;text-align: center}
+.progress .greyline{width: 20px;height:125px;background-image: none;margin-top: 48px;}
+.progress .greyline span{width: 20px;height:3px;background: #ececec;display: inline-block}
+
+
+/*注意事项*/
+.note{margin-top: 35px}
+.notes li{font-size:12px ;height: 20px;line-height: 20px}

@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="./Public/css/common.css"/>
+    <link rel="stylesheet" type="text/css" href="./Public/css/user_info.css"/>
+    <title>user_info</title>
+</head>
+<body>
+<div id="wrapper">
+    <div id="header">
+        <ul>
+            <li>注册</li>
+            <li>登陆</li>
+        </ul>
+    </div>
+    <div class="nav">
+        <div class="logo"><img src="./Public/images/logo.png"/></div>
+        <div class="nav_container">
+            <ul class="nav_1">
+                <li>关于我们</li>
+                <li>
+                    <div class="vertical">|</div>
+                </li>
+                <li>产品展示</li>
+                <li>
+                    <div class="vertical">|</div>
+                </li>
+                <li>客户服务</li>
+                <li>
+                    <div class="vertical">|</div>
+                </li>
+                <li>人才招聘</li>
+                <li>
+                    <div class="vertical">|</div>
+                </li>
+                <li>客户留言</li>
+            </ul>
+            <ul class="nav_2">
+                <li><a href="">CEO致词</a></li>
+                <li><a href="">公司历史</a></li>
+                <li><a href="">企业文化</a></li>
+                <li><a href="">组织结构</a></li>
+                <li><a href="">合作伙伴</a></li>
+
+            </ul>
+        </div>
+    </div>
+    <div class="banner">
+        <img src="./Public/images/ad_02.png"/>
+    </div>
+    <div class="main_l">
+        <div class="board">
+            <div class="rope"><img src="./Public/images/rope.gif"/></div>
+            <p>MYINFO</p>
+
+            <h3>我的账户</h3>
+            <ul>
+                <li><a href="">CEO致词</a></li>
+                <li><a href="">公司历史</a></li>
+                <li><a href="">企业文化</a></li>
+                <li><a href="">组织结构</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="main_r">
+        <div class="m_r_header">
+            <img src="./Public/images/bluebar2.png"/>
+
+            <h2>产品介绍 <span>梦想的世界</span></h2>
+            <ul>
+                <li>首页></li>
+                <li>关于我们></li>
+                <li>CEO致词</li>
+            </ul>
+        </div>
+        <form name="user_info" onsubmit="return form_check()">
+            <div class="info">
+                <table >
+                    <tr >
+                        <td rowspan="7" id="head_pic"><b>我的头像</b></td>
+                        <td style="text-indent: 2em" class="info_input">昵称 <input type="text" name="username"/></td>
+                    </tr>
+                    <tr>
+                        <td style="text-indent: 2em" class="info_input">性别 <select name="sex"><option> &nbsp;男</option><option>&nbsp;
+                            女</option></select> </td>
+                    </tr>
+                    <tr>
+                        <td style="text-indent: 2em" class="info_input">职业 <input type="text" name="job"/></td>
+                    </tr>
+                    <tr>
+                        <td class="info_input">公司名称 <input type="text" name="company"/></td>
+                    </tr>
+                    <tr>
+                        <td class="info_input">详细地址 <input type="text" name="address"/></td>
+                    </tr>
+                    <tr>
+                        <td class="info_input">电子邮箱 <input type="text" name="email"/></td>
+                    </tr>
+                    <tr>
+                        <td style="text-indent: 1em" class="info_input">现居地 <input type="text" name="local" /></td>
+                    </tr>
+                    <tr>
+                        <td style="width: 475px;height: 140px;" colspan="2"><b >个人介绍</b><textarea name="brief"></textarea></td>
+                    </tr>
+                </table>
+                <div class="btn" >
+                    <input type="submit" value="保存"/>
+                </div>
+            </div>
+        </form>
+    </div>
+    <script>
+        var user_info=document.forms['user_info'];
+        function form_check(){
+            var username=user_info.elements['username'].value;
+            if(username == "" || username.length<=5){
+                alert('用户名不为空或用户名字符数小于3个汉字')
+            }
+
+            var job=user_info.elements['job'].value;
+            if(job == ""){
+                alert('职业不为空6')
+            }
+
+            var company=user_info.elements['company'].value;
+            if(company == ""){
+                alert('公司名不为空')
+            }
+
+            var address=user_info.elements['address'].value;
+            if(address == ""){
+                alert('地址不为空')
+            }
+        }
+    </script>
+
+    <div id="footer">
+        <div id="footer_left">
+            <p>地址：广东省广州市海珠区新港西路231号3栋4层 联系人:XXX 移动电话：13500000000 固定电话：020-1234567 传真：020-1234567</p>
+
+            <p>Copyright @ 2014 文豆网络科技有限公司 版权所有 粤ICP00000号</p>
+        </div>
+        <div id="footer_right">
+            <select name="line">
+                <option>友情链接</option>
+            </select>
+        </div>
+    </div>
+</div>
+</body>
+</html>

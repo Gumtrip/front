@@ -1,0 +1,11 @@
+@charset "utf-8";
+.main_r{height: 620px}
+.message_pic{width: 680px;height: 100px;margin-bottom: 20px}
+
+.my_message{border-top:#7391c7 3px solid}
+.my_message table{width: 680px;border-collapse:collapse;border-top: 2px solid #fafafa}
+.my_message table tr{height: 27px;border-bottom: 1px solid #fafafa}
+.my_message table .title{width: 120px;height: 25px;text-indent: 2em;vertical-align: middle}
+.my_message table input {width: 200px;height: 20px;border: 1px solid #ececec;vertical-align: middle}
+.my_message table textarea{width: 540px;height: 190px;margin: 20px 0px;border: 1px solid #ececec;overflow-y: scroll}
+.my_message_btn {width: 65px;height: 25px;background: url("../images/msg_07.jpg") no-repeat;border: none}

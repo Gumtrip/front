@@ -1,0 +1,13 @@
+@charset "utf-8";
+.main_r{height: 750px}
+.info{width: 740px;height: 630px;background: url("../images/ball.png")no-repeat right bottom}
+.info table{margin:40px 0 0 90px;width: 485px;height: 400px}
+.info tr{width: 280px;height: 25px;line-height: 25px;margin-top: 7px}
+.info input{width: 200px;height: 25px;border: 1px solid #ececec}
+.info select{width: 81px;height: 23px;border: 1px solid #ececec}
+.info_input{padding-left: 28px}
+.info textarea{width: 400px;height: 130px;border: 1px solid #ececec}
+.info b{vertical-align: top;margin-right: 13px;font-size: 16px}
+#head_pic{width: 116px;height: 116px;background: url("../images/head.jpg") no-repeat;text-align: center;padding-top: 20px}
+.btn{width: 55px;height: 45px;cursor:pointer;-webkit-border-radius: 10px;border-radius: 10px;}
+.btn input{width: 55px;height: 45px;background-color: #1647a1;-webkit-border-radius: 10px;border-radius: 10px;color: white;border: none;text-align: center;margin-left: 170px;cursor:pointer}

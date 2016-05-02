@@ -1,0 +1,24 @@
+@charset "utf-8";
+
+
+.main_left{width: 185px;float: left;padding-top: 30px}
+.main_left h3{font-size: 20px;letter-spacing: 1px}
+.main_left h4{margin-top: 15px}
+
+.main_right{width: 505px;;float: left}
+
+.main_right .about_target{width: 505px;height: 32px;border-bottom: 1px dashed #ececec;padding-top: 30px;margin-bottom:20px }
+.main_right .about_target h3{font-size: 18px}
+.main_right .about_target h3 span{font-size: 14px}
+
+.main_right .company_info p{font-size: 12px}
+
+
+
+.company_info p{margin-bottom: 30px}
+.company_info_pic {margin-bottom: 30px}
+
+.philosophy li{font-size: 12px;height: 25px;line-height: 25px}
+
+
+table td{font-size: 12px}

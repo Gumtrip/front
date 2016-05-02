@@ -1,0 +1,18 @@
+@charset "utf-8";
+.user_center{float: left}
+
+.user_center .user_title {height: 30px;border-bottom: 1px solid #ececec;padding-left: 15px}
+.user_center .user_title li {float: left}
+.user_center .user_title h2{font-size: 16px}
+.user_center .user_title h3{font-size: 12px;padding-top: 5px;color: #989898}
+
+
+.user_center .count{width: 452px;height: 352px;float: left;margin-top: 70px}
+.user_center .count .red_text{color: #ff6699;margin-bottom: 35px}
+.user_center .count li{margin-top: 18px}
+.user_center .count_title{width: 350px;height: 23px;border-top:1px solid #ececec;border-bottom:1px solid #ececec;padding-top: 7px ;text-indent: 1em;margin:30px 0px}
+
+
+
+.user_center .notice{width: 444px;height: 230px;float: left;margin-top: 183px}
+.user_center .notice li{margin-top: 30px}

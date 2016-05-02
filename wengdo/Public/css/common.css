@@ -1,0 +1,58 @@
+@charset "utf-8";
+*{padding: 0px;margin: 0px}
+li{list-style-type: none}
+#wrapper{width: 1024px;margin: 0px auto}
+/*头部*/
+#header{height: 18px}
+#header ul{width: 173px;height: 18px;background-color: #ECECEC;float: right;margin-right: 62px;}
+#header li{float: left;margin-left: 30px;height: 18px;font-size:12px;font-family: 宋体;font-weight: bold;line-height: 18px}
+/*导航*/
+.nav{height: 46px;margin-top: 12px}
+/*商标*/
+.logo{float: left;width: 400px;height: 44px;margin-left: 20px}
+/*导航*/
+.nav_container{float: left;width: 600px;height: 46px}
+.nav_container li{list-style-type: none;float: left}
+.nav_container a:link{text-decoration: none}
+
+/*nav_1*/
+.nav_1 {height: 18px}
+
+.nav_1 ul{height: 18px}
+.nav_1 li{margin-left: 15px;font-size: 14px;font-weight: bold}
+/*nav_2*/
+.nav_2 {height: 20px;margin-top: 4px}
+.nav_2{background: url("../images/bluebar.png" )   no-repeat;width: 400px;float: left}
+.nav_2 li{margin-left: 20px}
+.nav_2 a{color: white;font-size: 14px}
+
+.father {position: relative;margin: auto}
+.son{position: absolute;display: none}
+.son li{margin:auto;font-size: 12px}
+
+/*中间banner*/
+.banner{height: 215px;width: 100%}
+/*主体左边*/
+.main_l{width: 250px;height: 600px;float: left;}
+.board{position: relative;border: 3px solid #7391c7;margin-left: 10px;margin-top:16px;-webkit-border-radius: 10px;border-radius: 10px;padding-top:20px;padding-left: 20px ;display: inline-block;padding-right:20px;padding-bottom: 20px;min-height: 195px }
+.rope{position: absolute;left:45%;top:-34px}
+.board h3{border-bottom: 2px solid #989898;width:180px;height: 30px}
+.board li {border-bottom: 1px solid #ECECEC;width: 165px;font-size: 14px;margin-top: 15px; height: 22px;background: url("../images/bluearrow.gif") no-repeat 0px 4px;padding-left: 15px}
+.board a:link {text-decoration: none;}
+
+
+/*主体的右边*/
+.main_r{width: 682px;height: 695px;float: left;margin-left: 50px;margin-top: 23px;}
+.m_r_header{height: 35px;border-bottom: 1px solid #ECECEC;width: 682px;margin-bottom: 30px}
+.m_r_header img{float: left;}
+.m_r_header h2{float: left;margin-left: 5px;font-size: 18px}
+.m_r_header h2 span{font-size: 12px}
+
+.m_r_header ul{float: right}
+.m_r_header li{float: left;font-size: 12px;color: #989898;margin-top: 6px ;}
+
+/*底部*/
+#footer{clear:left;width: 1024px;height: 80px;background: linear-gradient(#f3f3f3,#ffffff);margin-top: 20px;overflow: hidden}
+#footer_left{width: 800px;height:40px;float: left;margin-left: 25px;margin-top: 30px}
+#footer_left p{font-size: 12px;}
+#footer_right{;width: 100px;height: 40px;float: right;margin-top: 30px;margin-right: 55px}

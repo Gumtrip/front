@@ -1,0 +1,88 @@
+@charset "utf-8";
+/**************************公共部分**************************/
+*{padding: 0px;margin: 0px}
+li{list-style-type: none}
+a{text-decoration: none}
+a:visited{color: black}
+
+
+/*功能盒子*/
+.function_box{position: fixed;right: 0px;top:100px;z-index: 999}
+.function_box li{cursor: pointer;width: 100px}
+
+
+
+.wrapper{width: 1165px;margin: 0px auto}
+
+
+
+/*导航*/
+.nav{height: 56px;border-bottom: 1px solid #ececec;}
+
+.nav li{float: left;height: 55px;padding: 0px 15px;}
+.nav li h2{font-size: 12px;margin-top: 10px}
+.nav li p{font-size: 12px;margin-top: 10px}
+.nav .bookmark {padding: 0px}
+.nav .search {float: right;margin-top: 15px;}
+.nav .search li{height: 30px;padding: 0px}
+.nav .search li input{border: 1px solid #ececec}
+/*大题目*/
+.big_title{height: 276px;clear: both}
+.big_title{text-align: center}
+.big_title h2{font-size: 68px;display: inline-block;margin-top: 75px}
+.big_title h3{font-size: 42px;}
+
+
+/*中间主体*/
+.main{height: 670px;}
+.main .item{width: 248px;height: 670px;float: left;padding-left: 13px}
+.main .item h2{font-size: 22px}
+
+.main .item li{font-size: 16px;margin-top: 15px}
+.main .sina_pic{margin-top: 15px}
+
+
+/*wing_title*/
+.wing_title{width: 904px;height: 63px;border-bottom: 1px solid #ececec;border-top: 1px solid #ececec;padding-top: 12px}
+.wing_title h2{width: 338px;height: 52px;background: url("../images/tee_03.png") no-repeat ;color: white;margin: 0 auto;text-align: center;padding-top: 8px;}
+/*楼层*/
+.floor {height: 970px;}
+.floor h2{width: 250px;font-size: 26px;;margin: 0px auto}
+.floor li{width: 200px;margin-top: 50px;float: left;margin-right: 40px}
+.floor_content {clear: left}
+
+.floor li li{width: auto;height: auto;position: relative;float: none}
+.floor .floor_pic{width: 200px;height: 275px;overflow: hidden}
+.floor .floor_pic span{display: inline-block;position: absolute;top:13px;right: 13px}
+.floor .floor_title{font-size: 12px;margin-top: 12px}
+.floor .floor_price{font-size: 12px;margin-top: 5px}
+
+
+
+/*底部导航*/
+.mall_intro_container{height: 225px;}
+.mall_intro_container h2{font-size: 16px;width: 250px;margin: 0px auto;}
+.mall_intro {height: 174px;border: 1px solid #ececec;margin-top: 32px}
+.mall_intro li{float: left;}
+.mall_intro .intro_title{width: 350px;height: 155px;border-right: 1px solid #ececec;margin-top: 10px}
+.mall_intro .intro_title h2{font-size: 99px;text-align: center}
+.mall_intro .intro_title h3{font-size: 25px;text-align: center}
+
+/*介绍导航*/
+.mall_intro .intro_nav {width: 445px;height: 158px;border-right: 1px solid #ececec;margin-top: 10px}
+.mall_intro .intro_nav li{width: 148px;height: 51px}
+.mall_intro .intro_nav h4{font-size: 14px;text-align: center}
+.mall_intro .intro_nav p{font-size: 12px;text-align: center}
+
+.intro_info {width: 343px;padding-left: 12px}
+.intro_info li{float: none;font-size: 13px;font-weight: bold}
+.intro_info .hot_line{height: 50px;padding-top: 25px}
+.intro_info .hot_line span{font-size: 28px;color: #ff3399}
+.intro_info .woriking_time{width: 355px}
+.intro_info .address{width: 355px}
+
+
+
+.footer{height: 160px}
+.footer h2{text-align: center;font-size: 18px;margin-top: 40px}
+.footer h3{text-align: center;font-size: 12px;margin-top: 18px}

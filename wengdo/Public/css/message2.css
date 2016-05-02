@@ -1,0 +1,21 @@
+@charset "utf-8";
+.main_r{min-height: 850px}
+.message2 {min-height: 500px}
+.message2 ul {clear: both;margin-top: 20px;border-bottom: 1px solid #ececec}
+.message2 ul li{font-size: 14px;margin-top: 10px}
+.message2 ul li input{margin-bottom: 20px}
+.message2 ul li span {float: right;margin-top: 10px}
+
+.message2 .page{height: 20px;margin-bottom: 30px;}
+.message2 .page ul{margin: 20px 0px 0px 230px;border: none}
+.message2 .page li{float: left;font-size: 12px;margin-left: 7px}
+
+
+.leave_message{border-top:#7391c7 3px solid;}
+.leave_message table{width: 680px;height: 250px;border-collapse:collapse;border-top: 2px solid #fafafa;font-size: 12px}
+.leave_message table tr{height: 30px;border-bottom: 1px solid #fafafa}
+.leave_message table td{height: 30px}
+.leave_message input {width: 200px;height: 18px;border: 1px solid #ececec}
+.leave_message textarea{width: 540px;height: 190px;border: 1px solid #ececec;margin: 20px 0px;overflow-y: scroll }
+
+.leave_message .leave_message_btn {width: 65px;height: 25px;background: url("../images/msg_07.jpg") no-repeat;border: none}

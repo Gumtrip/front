@@ -1,0 +1,42 @@
+@charset "utf-8";
+.main_discript{float: left}
+.discript_info{;margin-top: 20px;height: 352px}
+
+.discript_pic{float: left;margin-left: 20px;margin-right: 38px}
+.discript_table{float: left}
+.discript_table table{width: 444px;height: 185px;border-collapse: collapse;border-bottom: 1px solid black}
+.discript_table table th{text-align: left;}
+.discript_table table td{font-size: 14px;}
+
+.discript_info .discript_btn {width: 444px;height: 45px;margin-top: 30px}
+.discript_info .discript_btn li{width: 188px;height: 35px;float: left;border: 1px solid black;text-align: center}
+
+
+
+.pic_gallery{width: 904px;margin-bottom: 100px}
+.pic_gallery h2 {font-size:38px;margin-left: 100px}
+.pic_gallery h3{font-size: 18px;margin-top: 15px;margin-left: 100px;margin-bottom: 20px}
+.pic_gallery h4{height: 30px;font-size: 25px;float: right;font-style: italic}
+
+.pic_gallery .pic_list{width: 884px;padding-left: 20px;margin-bottom: 20px}
+.pic_gallery .pic_list li{;text-align: center;overflow: hidden}
+
+/*评论区*/
+.discuss_title {height: 50px;border-bottom: 1px solid black}
+.discuss_title li{width: 63px;height: 40px;margin: 0px;font-size: 12px;float: left}
+.discuss_title em{font-size: 38px}
+.discuss_title span{font-size: 18px}
+
+
+.discuss_form{height: 357px}
+.discuss_form table{width: 600px;height: 230px;margin: 30px 0px 0px 140px}
+.discuss_form .dis_table_title{width: 80px;text-align: right}
+.discuss_form input{border: 1px solid #ececec;height: 25px}
+.discuss_form textarea{border: 1px solid #ececec;width: 505px;height: 85px}
+.discuss_form a{text-decoration: underline;color: blue}
+.discuss_form span{color: red}
+
+.discuss_form li{float: left}
+.discuss_form .dis_star li{margin-left: 5px}
+
+.discuss_form .submit_btn{text-align: center;margin-top: 10px}

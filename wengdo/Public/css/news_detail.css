@@ -1,0 +1,9 @@
+@charset "utf-8";
+
+.message_pic{width: 680px;height: 100px;margin-bottom: 20px}
+.news_detail {border-top:#7391c7 3px solid;height: 420px}
+.news_detail table{width: 680px;border-collapse:collapse;border-top: 2px solid #fafafa;font-size: 12px}
+.news_detail table thead td p{border-right: 1px #e8edf6 solid;font-weight: bold}
+.news_detail table tr{height: 27px;border-bottom: 1px solid #fafafa}
+.news_detail table td {text-align: center}
+.news_detail .content  p{text-align: left;margin-left: 20px}

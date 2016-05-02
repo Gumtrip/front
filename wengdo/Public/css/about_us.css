@@ -1,0 +1,7 @@
+@charset "utf-8";
+.main_r{height: 800px}
+.map{margin-top: 30px;width: 680px;height: 400px;overflow: hidden}
+.address{margin-top: 60px;margin-left: 15px}
+.address h2{color: #96a8d0;font-size: 14px}
+.address ul{margin-top: 25px}
+.address li{height: 20px;list-style: none;font-size: 12px;margin-top: 10px}

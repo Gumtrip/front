@@ -1,0 +1,10 @@
+@charset "utf-8";
+
+.title_container {width: 900px;float: left}
+.title_mm {margin-top: 30px;height: 50px}
+.title_mm li{float: left}
+.title_mm .mm_hr{width: 420px;padding-top: 10px}
+
+.company_brief{width: 900px}
+.company_brief h2{font-size: 26px;text-align: center;margin-bottom: 45px}
+.company_brief p{text-indent: 2em}
