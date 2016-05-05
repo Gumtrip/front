@@ -7,10 +7,11 @@
 #btn_r{width: 50px;height:50px;position: absolute;top: 50%;right: 5%}
 /*banner*/
 
-.banner{position: relative;overflow: hidden}
-.banner img{position: absolute;top:-215px}
-
-
+.zoom_pic{width: 100%;height: 100%;display: none;position: fixed;z-index: 99;background: black;top: 0px;opacity: 0.2;}
+.zoom_pic_container {width: 400px;height: 400px;position: relative;z-index: 999;background: white;}
+.zoom_pic img{position: absolute;;left: 35%;top: 20%;}
+.zoom_pic .close{width: 20px;height: 20px;position: absolute;right: 0px}
+.zoom_pic .close img{width: 20px;height: 20px}
 /*产品详细面*/
 .product_detail{width: 680px;height: 280px;margin-top: 30px}
 .product_d_pic{width: 400px;height: 280px;float: left;overflow: hidden}
@@ -26,11 +27,14 @@
 .product_m_pic li{margin-left: 5px;float: left;width: 78px;height: 60px;overflow: hidden;border: 1px solid #e8e8e8}
 /*轮播广告*/
 .adver{border: 1px solid #ECECEC;width: 700px;height: 120px;-webkit-border-radius: 10px;border-radius: 10px;position: relative;margin-top: 30px;}
-.adver ul{margin-left: 50px;position: absolute;left: 0px;height: 120px}
-.adver li{float: left;margin-left: 55px;margin-top: 20px;width: 80px;height: 100px }
-.adver_pic{display: block;width: 80px;height: 70px;}
-.left_arrow1{position: absolute;top: 30px;}
-.right_arrow1{position: absolute;top: 30px;right:0px}
+.pic_view ul a {text-decoration: none;color: black}
+.pic_view{width: 620px;height: 120px;margin-left: 40px;overflow: hidden;position: relative}
+.pic_view ul{width: 1240px;position: absolute}
+.pic_view li{float: left;width: 154px;margin-top: 15px;text-align: center;}
+.selected{outline: 1px solid #ececec}
+.adver_pic{display: block;width: 80px;height: 70px;margin: 0px auto}
+.left_arrow1{position: absolute;top: 30px;cursor:pointer;z-index: 10}
+.right_arrow1{position: absolute;top: 30px;right:0px;cursor:pointer;z-index: 10}
 
 /*产品特点*/
 .product_feature_nav{width: 685px;height: 28px;background: url("../images/bigbar.png") no-repeat;position: relative;}

@@ -6,13 +6,10 @@
     <link rel="stylesheet" type="text/css" href="./Public/css/common.css"/>
     <link rel="stylesheet" type="text/css" href="./Public/css/index.css"/>
     <script src="./Public/js/jquery.js"></script>
+    <script src="./Public/js/common.js"></script>
     <script src="./Public/js/index.js"></script>
-    <script>
-    </script>
 </head>
 <body>
-<button id="btn_l">&lt;</button>
-<button id="btn_r">&gt;</button>
 
 <div id="wrapper" >
         <div id="header">
@@ -25,28 +22,76 @@
             <div class="logo"><img src="./Public/images/logo.png" /></div>
             <div class="nav_container">
                 <ul class="nav_1" >
-                    <li>关于我们</li>
-                    <li><div class="vertical">|</div></li>
-                    <li>产品展示</li>
-                    <li><div class="vertical">|</div></li>
-                    <li>客户服务</li>
-                    <li><div class="vertical">|</div></li>
-                    <li>人才招聘</li>
-                    <li><div class="vertical">|</div></li>
-                    <li>客户留言</li>
-                </ul>
-                <ul class="nav_2">
-                    <li class="father"><a href="#">CEO致词</a>
+                    <li><a href="#">关于我们</a>
+                        <ul class="nav_2">
+                            <li><a href="#">CEO致词</a>
+                            </li>
+                            <li ><a href="#">公司历史</a>
+                            </li>
+                            <li ><a href="#">企业文化</a>
+                            </li>
+                            <li ><a href="#">组织结构</a>
+                            </li>
+                            <li ><a href="#">合作伙伴</a>
+                            </li>
+                        </ul>
                     </li>
-                    <li class="father"><a href="#">公司历史</a>
+                    <li><a href="#">产品展示</a>
+                        <ul class="nav_2">
+                            <li><a href="#">CEO致词</a>
+                            </li>
+                            <li ><a href="#">公司历史</a>
+                            </li>
+                            <li ><a href="#">企业文化</a>
+                            </li>
+                            <li ><a href="#">组织结构</a>
+                            </li>
+                            <li ><a href="#">合作伙伴</a>
+                            </li>
+                        </ul>
                     </li>
-                    <li class="father"><a href="#">企业文化</a>
+                    <li><a href="#">客户服务</a>
+                        <ul class="nav_2">
+                            <li><a href="#">CEO致词</a>
+                            </li>
+                            <li ><a href="#">公司历史</a>
+                            </li>
+                            <li ><a href="#">企业文化</a>
+                            </li>
+                            <li ><a href="#">组织结构</a>
+                            </li>
+                            <li ><a href="#">合作伙伴</a>
+                            </li>
+                        </ul>
                     </li>
-                    <li class="father"><a href="#">组织结构</a>
+                    <li><a href="#">人才招聘</a>
+                        <ul class="nav_2">
+                            <li><a href="#">CEO致词</a>
+                            </li>
+                            <li ><a href="#">公司历史</a>
+                            </li>
+                            <li ><a href="#">企业文化</a>
+                            </li>
+                            <li ><a href="#">组织结构</a>
+                            </li>
+                            <li ><a href="#">合作伙伴</a>
+                            </li>
+                        </ul>
                     </li>
-                    <li class="father"><a href="#">合作伙伴</a>
+                    <li><a href="#">客户留言</a>
+                        <ul class="nav_2">
+                            <li><a href="#">CEO致词</a>
+                            </li>
+                            <li ><a href="#">公司历史</a>
+                            </li>
+                            <li ><a href="#">企业文化</a>
+                            </li>
+                            <li ><a href="#">组织结构</a>
+                            </li>
+                            <li ><a href="#">合作伙伴</a>
+                            </li>
+                        </ul>
                     </li>
-
                 </ul>
             </div>
         </div>
@@ -69,19 +114,19 @@
         </div>
     <div class="main">
              <div class="main_left">
-                     <ul class="message_title" id="message_title">
-                         <li>通知</li>
+                     <ul class="message_title" >
+                         <li class="selected" >通知</li>
                          <li>公司新闻 </li>
                          <div class="more"><div class="r_triangle"></div>more</div>
                      </ul>
-                     <div class="message_content" id="message_content">
-                     <ul class="message_content_1">
+                     <div class="message_content ">
+                     <ul style="display: block">
                          <li>web上半年人才向导<span>[2014-1-1]</span></li>
                          <li>设立技术研究所网站（大田）<span>[2014-1-1]</span></li>
                          <li>web俄罗斯市场扩大<span>[2014-1-1]</span></li>
                          <li>举办座谈会的合作企业网站<span>[2014-1-1]</span></li>
                      </ul>
-                     <ul class="message_content_2">
+                     <ul>
                          <li><a href="">web下半年人才向导</a><span>[2014-7-1]</span></li>
                          <li><a href="">web下半年人才向导</a><span>[2014-7-1]</span></li>
                          <li><a href="">web下半年人才向导</a><span>[2014-7-1]</span></li>
@@ -119,19 +164,42 @@
                  </div>
              </div>
              <div class="main_mid">
-                 <div class="new_product">
-                     <img class="product_left" src="./Public/images/leftarrow.png"/>
-                     <img class="product_right" src="./Public/images/rightarrow.png"/>
-
-                     <div class="product_pic"><img src="./Public/images/radio.gif"/></div>
-                     <div class="product_message">
-                         <h5>New Product</h5>
-                         <p style="color: blue">ASA SG 1209</p>
-                         <p style="color: #7e7e7e">最好的产品，坚持ASA</p>
-                         <p style="color: #7e7e7e">web开发产品的特别系列</p>
-                         <div  class="more"><div class="r_triangle"></div>more</div>
+                 <img class="product_left" src="./Public/images/leftarrow.png"/>
+                 <img class="product_right" src="./Public/images/rightarrow.png"/>
+                     <div class="new_product">
+                         <ul>
+                             <li>
+                                 <div class="product_pic"><img src="./Public/images/radio.gif"/></div>
+                                 <div class="product_message">
+                                     <a href="#"><h5>New Product</h5></a>
+                                     <a href="#"><p style="color: blue">ASA SG 1209</p></a>
+                                     <a href="#"><p style="color: #7e7e7e">最好的产品，坚持ASA</p></a>
+                                     <a href="#"><p style="color: #7e7e7e">web开发产品的特别系列</p></a>
+                                     <a href="#"><div  class="more"><div class="r_triangle"></div>more</div></a>
+                                 </div>
+                             </li>
+                             <li>
+                                 <div class="product_pic"><img src="./Public/images/radio.gif"/></div>
+                                 <div class="product_message">
+                                     <h5>New Product</h5>
+                                     <p style="color: blue">ASA SG 1209</p>
+                                     <p style="color: #7e7e7e">最好的产品，坚持ASA</p>
+                                     <p style="color: #7e7e7e">web开发产品的特别系列</p>
+                                     <div  class="more"><div class="r_triangle"></div>more</div>
+                                 </div>
+                             </li>
+                             <li>
+                                 <div class="product_pic"><img src="./Public/images/radio.gif"/></div>
+                                 <div class="product_message">
+                                     <h5>New Product</h5>
+                                     <p style="color: blue">ASA SG 1209</p>
+                                     <p style="color: #7e7e7e">最好的产品，坚持ASA</p>
+                                     <p style="color: #7e7e7e">web开发产品的特别系列</p>
+                                     <div  class="more"><div class="r_triangle"></div>more</div>
+                                 </div>
+                             </li>
+                         </ul>
                      </div>
-                 </div>
                  <div class="director">
                      <div class="director_content" >
                          <div class="d_pic">
@@ -167,23 +235,23 @@
                  <div class="main_right" >
                      <dl>
                          <dt class="company_title" value="0">&nbsp;01 公司历史</dt>
-                             <dd class="company_detail">
+                         <dd class="company_detail">
                                  <h4><a href="">BUSINESS INFO</a> </h4>
                                  <p>持续的企业的延伸的维伯,《介绍我</p>
                                  <div class="more" style="float: left" ><a href="">more</a><span class="r_triangle"></span></div>
-                             </dd>
+                         </dd>
                          <dt class="company_title" value="0">&nbsp;02 企事文化</dt>
-                             <dd class="company_detail">
+                         <dd class="company_detail">
                                  <h4><a href="">BUSINESS INFO</a> </h4>
                                  <p>持续的企业的延伸的维伯,《介绍我</p>
                                  <div class="more" style="float: left" ><a href="">more</a><span class="r_triangle"></span></div>
-                             </dd>
+                         </dd>
                          <dt class="company_title" value="0">&nbsp;03 服务精神</dt>
-                             <dd class="company_detail">
+                         <dd class="company_detail">
                                  <h4><a href="">BUSINESS INFO</a> </h4>
                                  <p>持续的企业的延伸的维伯,《介绍我</p>
                                  <div class="more" style="float: left" ><a href="">more</a><span class="r_triangle"></span></div>
-                             </dd>
+                         </dd>
                      </dl>
                  </div>
         </div>
@@ -202,20 +270,6 @@
             </div>
         </div>
 </div>
-<script>
-    var message_title =document.getElementById('message_title');
-    var message_title1 =message_title.getElementsByTagName('li');
-    var message_content = document.getElementById('message_content');
-    var message_content1 = message_content.getElementsByTagName('ul');
-    for(var i=0;i<message_title1.length;i++){	//循环id=list所有的li---标题
-        message_title1[i].index=i;		//自定义一个下标属性，用在下面的内容
-        message_title1[i].onclick=function(){
-            for(var j=0;j<i/*或boxContent.length*/;j++){		//i==2
-                message_content1[j].style.display="none";//全部先消失
-            }
-            message_content1[this.index].style.display="block";//当前再显示。
-        }
-    }
-</script>
+
 </body>
 </html>

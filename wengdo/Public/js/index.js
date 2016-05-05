@@ -1,84 +1,38 @@
-$(document).ready(function () {
-    $(this).find('.main_right dt').click(
-        function () {
-            $('.main_right dd').slideUp('normal');
-            $(this).next('dd').slideDown('normal');
-        })
-});
-$(document).ready(function () {
-    $(this).find('.main_right dt').click(function(){
-        $('.main_right dt').removeClass('company_title_1');
-        $(this).toggleClass('company_title_1');
-    })
-});
 $(document).ready(function(){
-    var  i =0
-    var num = $(".index_banner img");
-    $('.pic_num li').eq(0).css('opacity','0.3');
-    //手动轮播
-    $('#btn_l').on('click', function () {
-        if(i == 0){
-            i = num.length-1;
+    //左下角
+    $('.message_title li').mouseover(function () {
+        var i =$(this).index();
+        $('.message_title li').eq(i).addClass('selected').siblings().removeClass('selected');
+        $('.message_content ul').eq(i).show().siblings().hide();
+    });
+    //中间部分
+    var k =0;
+    var slidewidth =$('.new_product li').width();
+    $('.product_left,.product_right').click(function(){
+        var $name=$(this).attr('class');
+        console.log($name);
+        if($name=='product_left'){
+            //左边
+            k--;
+            k=k==-1?k=2:k;
+            pic_switcher();
         }else{
-            i--
+            //右边
+            k++;
+            k=k==3?k=0:k;
+            pic_switcher();
         }
-        $('.index_banner img').eq(i).show().siblings().hide();
-        $('.pic_info').html($('div.index_banner img').eq(i).attr('alt'))
-        $('.pic_num li').eq(i).css('opacity','0.3').siblings().css('opacity','1')
     });
-    $('#btn_r').on('click', function () {
-        if(i == num.length-1){
-            i = 0;
-        }else{
-            i++
-        }
-        $('.index_banner img').eq(i).show().siblings().hide();
-        $('.pic_info').html($('div.index_banner img').eq(i).attr('alt'))
-        $('.pic_num li').eq(i).css('opacity','0.3').siblings().css('opacity','1')
+    function pic_switcher(){
+        $('.new_product ul').animate({
+            left:-k*slidewidth
+        },'fast');
+    }
 
+    //右下角
+    $('.company_title').on('click', function () {
+        console.log($(this));
+        $(this).next('dd').slideToggle().siblings('dd').slideUp();
+        $(this).addClass('company_title_1').siblings('dt').removeClass('company_title_1');//后来添加的类会覆盖同名css属性。
     });
-    //图片序号显示
-    $('.pic_num li').on('click', function () {
-        console.log($(this).index())
-        $('.index_banner img').eq($(this).index()).show().siblings().hide();
-        $('.pic_num li').eq($(this).index()).css('opacity',0.2).siblings().css('opacity',1);
-    })
-
-    //自动轮播
-    function lunbo(){
-        if(i == num.length){
-            i=0;
-        }
-        $('.index_banner img').eq(i).show().siblings('img').hide();
-        $('.pic_num li').eq(i).css('opacity',0.2).siblings().css('opacity',1);
-        $('.pic_info').html($('div.index_banner img').eq(i).attr('alt'))
-        i++
-    };
-//移入停止
-    var dingshiqi = setInterval(lunbo,1000)
-
-    $('.index_banner,.pic_num').hover(function () {
-        clearInterval(dingshiqi)
-    }, function () {
-        dingshiqi = setInterval(lunbo,1000)
-
-    })
-
-//导航
-
-    $('.father').hover(function () {
-        $('.son').eq($(this).index()).show()
-    }, function () {
-        $('.son').hide()
-    });
-    $('.pic_info').html($('div.index_banner img').eq(0).attr('alt'))
-
-    $('.footer_right')
-//友情链接
-    console.log($('.line option'))
-    $('.line').change(function(){
-        console.log($(this).val())
-        //window.location.href=$(this).val()//在原来的网址中打开
-        window.open($(this).val());//在新窗口打开用这个
-    })
-})
+});

@@ -16,13 +16,11 @@ div.pic_info{width: 100%;position: absolute;background: #000000;opacity: 0.3;bot
 /***************************左边部分***************************/
 .main_left{width: 330px;height: 190px;margin-left:20px ;float: left }
 .message_title{width: 330px;height: 22px;border-bottom: 1px solid #ECECEC;}
-.message_title li{float: left;font-size: 12px;border: 1px solid #ECECEC;width: 68px;height: 22px;text-align: center;background: url("../images/btn-bg.png") repeat-x; line-height: 22px}
-.message_title li:hover{cursor: pointer;background: white;border-bottom: white 1px solid}
+.message_title li{float: left;font-size: 12px;border: 1px solid #ECECEC;width: 68px;height: 22px;text-align: center;background: url("../images/btn-bg.png") repeat-x; line-height: 22px;cursor: pointer}
+.message_title .selected{background: white;border-bottom: white 1px solid}
 .more{float: right;font-size: 12px}
-.message_content_1{display: block}
-.message_content_2 {display: none}
-
-.message_content ul{clear: left;height: 85px;margin-top: 5px}
+.message_content a{text-decoration: none;color: black}
+.message_content ul{clear: left;height: 85px;margin-top: 5px;display: none}
 .message_content li{list-style-type: square;margin-left: 18px;font-size: 12px;height: 20px;line-height: 20px}
 .message_content li span{float: right;color: blue}
 
@@ -35,17 +33,23 @@ div.pic_info{width: 100%;position: absolute;background: #000000;opacity: 0.3;bot
 /***************************左边部分***************************/
 
 /**********************中间部分**********************/
-.main_mid{width: 320px;height: 190px;float: left;margin-left:35px ;}
+.main_mid{width: 320px;height: 190px;float: left;margin-left:35px;position: relative;}
+.product_left{position: absolute;top:40px;left:-10px;z-index: 10;cursor: pointer}
+.product_right{position: absolute;top:40px;right:-10px;z-index: 10;cursor:pointer}
 .new_product{width: 320px;height: 108px;border: 1px #ECECEC solid;position: relative;background: -webkit-linear-gradient(bottom,#fcfcfc,#ffffff)}
-.product_left{position: absolute;top:40px;left:-10px}
-.product_right{position: absolute;top:40px;right:-10px}
-.product_pic{position: absolute;top:20px;left: 20px}
-.product_message{float: right;margin-right: 30px;margin-top: 15px;text-align: right}
-.product_message h5{font-size: 14px}
-.product_message p{font-size: 16px}
+.main_mid {float: left}
+.product_pic{margin: 25px 0 0 30px;float: left}
+.new_product .product_message{float: left;margin: 25px 0 0 30px}
+.product_message a{text-decoration: none}
+.product_message h5{font-size: 13px}
+.product_message p{font-size: 15px}
+.main_mid .new_product{overflow: hidden;position: relative}
+.main_mid .new_product ul{width: 970px;height: 100%;overflow: hidden;position: absolute;}
+.main_mid .new_product ul li{float: left;width: 320px}
+
 /*中间下部*/
 .director{height: 80px;  margin-top: 10px;position: relative}
-.director_grey{position: absolute ;left: 158px}
+.director_grey{position: absolute ;left: 158px;}
 .director_content{float: left;width: 50%;height: 75px;position: relative;padding-top: 15px}
 .d_pic{position: absolute;top: 15px;left: 5px;}
 .d_message{width: 90px;height: 60px;float: right;font-size: 12px;}
@@ -56,7 +60,7 @@ div.pic_info{width: 100%;position: absolute;background: #000000;opacity: 0.3;bot
 .main_right{float: left;width: 250px;height: 185px;margin-left: 35px}
 .main_right dt{cursor: pointer}
 .company_title{width: 100%;height: 20px;border: 1px solid #ECECEC;background: url("../images/addadd.png") no-repeat right;}
-.company_title_1{width: 100%;height: 20px;border: 1px solid #ECECEC;background: url("../images/minus.gif") no-repeat right;}
+.company_title_1{background: url("../images/minus.gif") no-repeat right;}
 .company_title a{text-decoration: none}
 .company_detail{width: 225px;height: 85px;background: url("../images/building.png")no-repeat right;padding-top: 20px;padding-left:20px ;display: none}
 .company_detail p{width: 100px;height: 30px;font-size: 12px;margin-top: 10px;}
